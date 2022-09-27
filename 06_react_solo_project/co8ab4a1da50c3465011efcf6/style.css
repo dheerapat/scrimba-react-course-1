@@ -9,11 +9,17 @@ body {
 }
 
 .biz-card {
-    margin: 0 auto;
+    margin: 50px auto;
     max-width: 400px;
     background-color: #1a1b21;
     padding: 20px;
     border-radius: 10px
+}
+
+@media only screen and (max-width: 600px) {
+    .biz-card {
+        max-width: 80%;
+    }
 }
 
 .photo {
